@@ -1,0 +1,69 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(135deg, #000000, #e08181); 
+    color: #333; 
+    line-height: 1.6;
+    padding: 20px;
+}
+
+header {
+    background: linear-gradient(90deg, #161313, #755855);
+    color: #ffffff; 
+    padding: 20px;
+    text-align: center;
+    font-size: 2.5em; 
+    border-radius: 12px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); 
+    margin-bottom: 20px;
+}
+
+
+h1 {
+    color: #e74c3c; 
+    font-size: 2.2em;
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: 700;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+p {
+    font-size: 1.4em; 
+    color: #e7899f; 
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+iframe {
+    display: block;
+    margin: 0 auto; /* Centraliza o iframe */
+    border-radius: 12px; /* Bordas arredondadas */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.25); /* Sombra mais pronunciada */
+    border: 5px solid #f39c12; /* Borda amarela vibrante */
+}
+
+/* Adiciona um container para o vídeo */
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%; /* Proporção 16:9 */
+    height: 0;
+    overflow: hidden;
+    max-width: 100%;
+    border-radius: 12px; 
+    margin: 20px auto;
+}
+
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
